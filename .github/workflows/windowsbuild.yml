@@ -8,6 +8,8 @@ on:
   pull_request:
     branches: [ main, develop, 1.* ]
 
+  workflow_dispatch:
+  
 jobs:
   build:
     runs-on: windows-latest
